@@ -18,13 +18,17 @@ layout: default
     <h3>Introduction</h3>
     <p>Hello and welcome to our styleguide for the mmp2a. We hope you like it :)</p>
     <p>
-      TiMe is a plattform where you can easily track your working hours and those hours you work for a client or project. TiMe combines all the
-      advantages of a simple time tracking system and a complex ticket management system. As TiMe is so extensive, it provides the perfect plattform
+      TiMe is a plattform where you can easily track your working hours and those hours you work for a client or
+      project. TiMe combines all the
+      advantages of a simple time tracking system and a complex ticket management system. As TiMe is so extensive, it
+      provides the perfect plattform
       to work easy, efficient and structured.
     </p>
     <p>
-      The styleguide is made with <a href="https://jekyllrb.com/" target=_blank>Jekyll</a> and the code is based on the source of <a href="https://github.com/jeromecoupe/jekyllstyleguide" target=_blank>Jerome Coupe</a>.
-      Further information about the styleguide as well as a explanation on how to run the project can be found on <a href="https://vanessareiter09.github.io/time-styleguide" target=_blank>GitHub</a>.
+      The styleguide is made with <a href="https://jekyllrb.com/" target=_blank>Jekyll</a> and the code is based on the
+      source of <a href="https://github.com/jeromecoupe/jekyllstyleguide" target=_blank>Jerome Coupe</a>.
+      Further information about the styleguide as well as a explanation on how to run the project can be found on <a
+        href="https://github.com/vanessareiter09/styleguide" target=_blank>GitHub</a>.
     </p>
   </div>
   <div class="hero-image">
@@ -35,12 +39,12 @@ layout: default
 
 {% assign entries = site.components | where:"type","colors" %}
 {% for entry in entries %}
-  {% include component_without_source.html %}
+{% include component_without_source.html %}
 {% endfor %}
 
 {% assign entries = site.components | where:"type","typography" %}
 {% for entry in entries %}
-  {% include component.html %}
+{% include component.html %}
 {% endfor %}
 
 
@@ -48,7 +52,7 @@ layout: default
 
 {% assign entries = site.components | where:"type","methodology" %}
 {% for entry in entries %}
-  {% include component_methodology.html %}
+{% include component_methodology.html %}
 {% endfor %}
 
 
@@ -56,32 +60,32 @@ layout: default
 
 {% assign entries = site.components | where:"type","list" %}
 {% for entry in entries %}
-  {% include component.html %}
+{% include component.html %}
 {% endfor %}
 
 {% assign entries = site.components | where:"type","link" %}
 {% for entry in entries %}
-  {% include component.html %}
+{% include component.html %}
 {% endfor %}
 
 {% assign entries = site.components | where:"type","buttons" %}
 {% for entry in entries %}
-  {% include component.html %}
+{% include component.html %}
 {% endfor %}
 
 {% assign entries = site.components | where:"type","icons" %}
 {% for entry in entries %}
-  {% include component.html %}
+{% include component.html %}
 {% endfor %}
 
 {% assign entries = site.components | where:"type","input" %}
 {% for entry in entries %}
-  {% include component.html %}
+{% include component.html %}
 {% endfor %}
 
 {% assign entries = site.components | where:"type","dropdown" %}
 {% for entry in entries %}
-  {% include component.html %}
+{% include component.html %}
 {% endfor %}
 
 <span class="top">
