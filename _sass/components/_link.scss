@@ -1,0 +1,23 @@
+nav {
+  background-color: $mmp-header;
+  ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    padding: 1rem;
+    li {
+      list-style: none;
+      display: inline;
+      margin: 0 1rem;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  &#active,
+  &:hover {
+    border-bottom: #000 solid 1px;
+  }
+}

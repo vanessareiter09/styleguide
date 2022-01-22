@@ -1,0 +1,33 @@
+.btn:hover {
+  border-bottom: none;
+}
+button {
+  border-radius: 10px;
+  padding: 1rem;
+  text-transform: uppercase;
+  border: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  &:hover {
+    box-shadow: 3px 3px 3px #aaa;
+  }
+}
+
+.btn-start {
+  color: #fff;
+  background: $mmp-primary;
+}
+
+.btn-stop {
+  color: #000;
+  background: $mmp-background;
+  border: 2px solid #000;
+}
+
+.icon {
+  margin: 1.5rem;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}

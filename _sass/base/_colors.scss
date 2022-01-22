@@ -1,0 +1,39 @@
+$mmp-background: #c2d0d2;
+$mmp-header: #b8ccce;
+$mmp-primary: #58797b;
+$mmp-field: #eeeeee;
+
+.color-components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #fff;
+  .outer-box {
+    padding: 1rem;
+    border: 2px solid $mmp-field;
+    background: none;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      margin-bottom: 1rem;
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+.color-component__header {
+  background-color: $mmp-header;
+}
+.color-component__primary {
+  background-color: $mmp-primary;
+}
+.color-component__field {
+  background-color: $mmp-field;
+}
+.color-component__background {
+  background-color: $mmp-background;
+}
