@@ -6,11 +6,35 @@ type: methodology
 ---
 <h3>Naming Convention</h3>
 <ul class="methodology-list">
-    <li>the filenames are with underscores</li>
-    <li>because of Jekyll the main folders are also written with an underscore at the beginning</li>
-    <li>we also took care that the scss files have a meaningfull name</li>
-    <li>we tried to stick to BEM notation</li>
-    <li>BEM has only class selectors, but we have for example also an id for the active link</li>
-    <li>we also noticed that we went for object oriented css</li>
-    <li>for colors we also used hex format</li>
+    <li>our class names are written in lowercase and separated by dashes</li>
+    <div class="example">        
+            .welcome-message {
+                text-align: center;
+            }
+    </div>
+    
+    <li>we also took care that the scss files have meaningful names <br>
+        for example the welcome page has it's on scss file named welcome.scss</li>
+    <li>we tried to stick to BEM notation <br> BEM has only class selectors, but we have for example also an id for the active link</li>
+    
+    <li>we avoided specifying units for zero values</li>
+    <div class="example">        
+        body {
+            margin: 0;
+            padding: 0;
+          }
+    </div>
+
+    
+    <li>for colors we also used hex format and variables. Note: in ruby on rails we have to declare varibales in a css file</li>
+    <div class="example">        
+        :root {
+            --primary: #58797b;
+        }
+    <br>
+            
+        nav {
+            background-color: var(--header);
+        }
+    </div>
 </ul>

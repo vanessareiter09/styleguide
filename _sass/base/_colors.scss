@@ -1,7 +1,8 @@
-$mmp-background: #c2d0d2;
+$mmp-background: #f9f9f9;
 $mmp-header: #b8ccce;
 $mmp-primary: #58797b;
-$mmp-field: #eeeeee;
+$mmp-field: #e9e9e9;
+$mmp-login: #c2d0d2;
 
 .color-components {
   display: flex;
@@ -36,4 +37,7 @@ $mmp-field: #eeeeee;
 }
 .color-component__background {
   background-color: $mmp-background;
+}
+.color-component__login {
+  background-color: $mmp-login;
 }
